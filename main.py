@@ -16,4 +16,7 @@ if accountA == accountB:
     accountB = random.choice(data)    
 
 print(f"Compare A: {formatData(accountA)}.")    
-print(f"Compare B: {formatData(accountB)}.")    
+print(vs)
+print(f"Again B: {formatData(accountB)}.")   
+
+guess = input("Who has more followers? Type 'A' or 'B': ").lower()
